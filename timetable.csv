@@ -1,0 +1,75 @@
+Program,Semester,Day,StartTime,EndTime,Course,Room
+FA25-CHE-A,2,Mo,10:00,11:30,Chemical Process Principles,A-6
+FA25-CHE-A,2,Tu,08:30,11:30,Chemistry / Physical Chemistry Lab,A-3
+FA25-CHE-A,2,Tu,11:30,13:00,Chemical Process Principles,A-10
+FA25-CHE-A,2,We,10:00,11:30,Civics and Community Engagement,A-3
+FA25-CHE-A,2,We,13:00,14:30,Expository Writing,A-3
+FA25-CHE-A,2,Th,11:30,14:30,Lab-Year 1 Project,K1-Lab
+FA25-CHE-A,2,Th,14:30,16:00,Chemistry I,A-10
+FA25-CHE-A,2,Fr,08:30,10:00,Calculus II,A-6
+FA25-CHE-A,2,Fr,11:30,13:00,Expository Writing,A-10
+FA25-CHE-A,2,Sa,08:30,10:00,Online-Islamic Studies,Online
+FA25-CHE-B,2,Mo,08:30,10:00,Chemical Process Principles,A-6
+FA25-CHE-B,2,Tu,08:30,10:00,Chemical Process Principles,A-10
+FA25-CHE-B,2,Tu,11:30,14:30,Chemistry / Physical Chemistry Lab,A-3
+FA25-CHE-B,2,We,10:00,11:30,Civics and Community Engagement,A-3
+FA25-CHE-B,2,We,13:00,14:30,Expository Writing,A-3
+FA25-CHE-B,2,Th,11:30,14:30,Lab-Year 1 Project,K1-Lab
+FA25-CHE-B,2,Fr,08:30,10:00,Calculus II,A-6
+FA24-CHE-A,4,Mo,13:00,14:30,Transport Phenomena,A-3
+FA24-CHE-A,4,Tu,08:30,10:00,Fundamentals of Sociology,A-2
+FA24-CHE-A,4,Tu,13:00,14:30,Introduction to Computer Programming,A-3
+FA24-CHE-A,4,We,08:30,10:00,Particulate Technology,A-3
+FA24-CHE-A,4,We,12:00,13:30,Transport Phenomena,D-5
+FA24-CHE-A,4,Th,11:30,14:30,Lab-Introduction to Computer Programming,SE Lab-H (C-7)
+FA24-CHE-A,4,Fr,08:30,10:00,Thermodynamics-I for Chemical Engineers,A-3
+FA25-BCH-A,2,Mo,11:30,14:30,Lab-Organic Chemistry,D-114
+FA25-BCH-A,2,Mo,14:30,16:00,Fehm-e-Quran-1,Seminar Hall
+FA25-BCH-A,2,Tu,10:00,11:30,Expository Writing,D-114
+FA25-BCH-A,2,Tu,11:30,13:00,Organic Chemistry,D-114
+FA25-BCH-A,2,Tu,13:00,14:30,Tools for Quantitative Reasoning,A-10
+FA25-BCH-A,2,We,08:30,10:00,Organic Chemistry,D-114
+FA25-BCH-A,2,We,11:30,13:00,Heat and Thermodynamics,A-2
+SP26-BAI-A,1,Mo,10:00,11:30,Pre-Calculus I,N-22
+SP26-BAI-A,1,Mo,12:00,13:30,Applied Physics,N-16
+SP26-BAI-A,1,Mo,13:30,15:00,Applications of Information & Communication Tech,N-16
+SP26-BAI-A,1,Tu,11:30,13:00,Online-Islamic Studies,Online
+SP26-BAI-A,1,We,13:00,16:00,Lab-Programming Fundamentals,SE Lab-B (C-19)
+SP26-BAI-A,1,Th,08:30,10:00,Functional English,N-17
+SP26-BAI-A,1,Th,11:30,13:00,Pre-Calculus I,N-5
+SP26-BAI-A,1,Fr,08:30,10:00,Programming Fundamentals,N-21
+SP26-BAI-A,1,Fr,11:30,13:00,Functional English,N-15
+SP26-BCS-A,1,Mo,08:30,10:00,Pre-Calculus I,N-25-A
+SP26-BCS-A,1,Mo,11:30,13:00,Civics and Community Management,N-25-A
+SP26-BCS-A,1,Mo,13:30,15:00,Programming Fundamentals,N-3
+SP26-BCS-A,1,Tu,11:30,14:30,Lab-Programming Fundamentals,SE Lab-A (C-18)
+SP26-BCS-A,1,Tu,14:30,17:30,Lab-Applications of ICT,SE Lab-A (C-18)
+SP26-BCS-A,1,Th,08:30,10:00,Fundamentals of Psychology,N-24
+SP26-BCS-A,1,Th,10:00,11:30,Functional English,N-22
+SP26-BCS-A,1,Th,13:00,14:30,Programming Fundamentals,N-14
+FA25-BCS-A,2,Mo,11:30,13:00,Discrete Structures,N-25-A
+FA25-BCS-A,2,Mo,13:00,14:30,Fehm-e-Quran-i,Seminar Hall
+FA25-BCS-A,2,Mo,14:30,16:00,Expository Writing,N-22
+FA25-BCS-A,2,Tu,11:30,13:00,Object Oriented Programming,N-10
+FA25-BCS-A,2,Tu,13:00,14:30,Pre-Calculus II,N-17
+FA25-BCS-A,2,We,11:30,13:00,Technical & Business Writing,N-15
+FA25-BCS-A,2,We,13:00,14:30,Applied Physics,N-24
+FA25-BCS-A,2,Th,11:30,13:00,Discrete Structures,0-3
+FA25-BCS-A,2,Fr,10:00,13:00,Lab-Applied Physics,Applied Physics Lab (P-1)
+SP26-BSE-A,1,Mo,08:30,11:30,Lab-Applications of ICT,SE Lab-B (C-19)
+SP26-BSE-A,1,Mo,11:30,13:00,Programming Fundamentals,N-22
+SP26-BSE-A,1,Mo,13:00,14:30,Functional English,N-5
+SP26-BSE-A,1,Tu,11:30,13:00,Online-Islamic Studies,Online
+SP26-BSE-A,1,We,11:30,13:00,Fundamentals of Psychology,N-25-B
+SP26-BSE-A,1,We,14:30,16:00,Civics and Community Management,N-13
+SP26-BSE-A,1,Th,08:30,11:30,Lab-Programming Fundamentals,SE Lab-B (C-19)
+SP26-BSE-A,1,Fr,08:30,10:00,Functional English,N-24
+SP26-BSE-A,1,Fr,10:00,11:30,Programming Fundamentals,N-4
+SP26-BSE-A,1,Fr,14:30,16:00,Pre-Calculus I,N-25-B
+FA24-BSE-A,4,Tu,10:00,11:30,Linear Algebra,D-3
+FA24-BSE-A,4,Tu,11:30,14:30,Lab-Computer Networks,SE Lab-J (C-9)
+FA24-BSE-A,4,Tu,14:30,16:00,Technical & Business Writing,N-1
+FA24-BSE-A,4,We,10:00,11:30,Technical & Business Writing,N-2
+FA24-BSE-A,4,We,13:00,14:30,Database Systems,D-2
+FA24-BSE-A,4,Th,08:30,10:00,Linear Algebra,D-15
+FA24-BSE-A,4,Th,10:00,11:30,Design & Analysis of Algorithm,D-3
