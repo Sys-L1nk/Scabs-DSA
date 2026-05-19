@@ -46,7 +46,14 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         "onBookRoom",
         "onCancelBooking",
         "onJoinQueue",
-        "onProcessQueue"
+        "onProcessQueue",
+        "onBookSlot",
+        "onMarkEmpty",
+        "onReschedule",
+        "onShowTimetable",
+        "onUndo",
+        "onRecommend",
+        "onRefreshBST"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -62,6 +69,20 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         QtMocHelpers::SlotData<void()>(6, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'onProcessQueue'
         QtMocHelpers::SlotData<void()>(7, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onBookSlot'
+        QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onMarkEmpty'
+        QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onReschedule'
+        QtMocHelpers::SlotData<void()>(10, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onShowTimetable'
+        QtMocHelpers::SlotData<void()>(11, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onUndo'
+        QtMocHelpers::SlotData<void()>(12, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onRecommend'
+        QtMocHelpers::SlotData<void()>(13, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onRefreshBST'
+        QtMocHelpers::SlotData<void()>(14, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -91,6 +112,13 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 3: _t->onCancelBooking(); break;
         case 4: _t->onJoinQueue(); break;
         case 5: _t->onProcessQueue(); break;
+        case 6: _t->onBookSlot(); break;
+        case 7: _t->onMarkEmpty(); break;
+        case 8: _t->onReschedule(); break;
+        case 9: _t->onShowTimetable(); break;
+        case 10: _t->onUndo(); break;
+        case 11: _t->onRecommend(); break;
+        case 12: _t->onRefreshBST(); break;
         default: ;
         }
     }
@@ -116,14 +144,14 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 6)
+        if (_id < 13)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 13;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 6)
+        if (_id < 13)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 6;
+        _id -= 13;
     }
     return _id;
 }

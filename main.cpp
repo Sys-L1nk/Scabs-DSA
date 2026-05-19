@@ -4,7 +4,7 @@
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
-    app.setStyle("Fusion"); // clean cross-platform look
+    app.setStyle("Fusion");
 
     MainWindow w;
     w.show();

@@ -15,8 +15,8 @@ CC            = gcc
 CXX           = g++
 DEFINES       = -DUNICODE -D_UNICODE -DWIN32 -DMINGW_HAS_SECURE_API=1 -DQT_QML_DEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NEEDS_QMAIN
 CFLAGS        = -fno-keep-inline-dllexport -O2 -Wall -Wextra -Wextra $(DEFINES)
-CXXFLAGS      = -fno-keep-inline-dllexport -O2 -Wall -Wextra -Wextra -fexceptions -mthreads $(DEFINES)
-INCPATH       = -I../../../RoomManagementSystem_Qt -I. -IE:/Setups/QT/6.11.0/mingw_64/include -IE:/Setups/QT/6.11.0/mingw_64/include/QtWidgets -IE:/Setups/QT/6.11.0/mingw_64/include/QtGui -IE:/Setups/QT/6.11.0/mingw_64/include/QtCore -Irelease -I/include -IE:/Setups/QT/6.11.0/mingw_64/mkspecs/win32-g++ 
+CXXFLAGS      = -fno-keep-inline-dllexport -O2 -std=gnu++1z -Wall -Wextra -Wextra -fexceptions -mthreads $(DEFINES)
+INCPATH       = -I../../../Scabs-DSA -I. -IE:/Setups/QT/6.11.0/mingw_64/include -IE:/Setups/QT/6.11.0/mingw_64/include/QtWidgets -IE:/Setups/QT/6.11.0/mingw_64/include/QtGui -IE:/Setups/QT/6.11.0/mingw_64/include/QtCore -Irelease -I/include -IE:/Setups/QT/6.11.0/mingw_64/mkspecs/win32-g++ 
 LINKER      =        g++
 LFLAGS        =        -Wl,-s -Wl,-subsystem,windows -mthreads
 LIBS        =        E:\Setups\QT\6.11.0\mingw_64\lib\libQt6Widgets.a E:\Setups\QT\6.11.0\mingw_64\lib\libQt6Gui.a E:\Setups\QT\6.11.0\mingw_64\lib\libQt6Core.a -lmingw32 E:\Setups\QT\6.11.0\mingw_64\lib\libQt6EntryPoint.a -lshell32  
@@ -107,7 +107,7 @@ compiler_moc_predefs_make_all: release/moc_predefs.h
 compiler_moc_predefs_clean:
 	-$(DEL_FILE) release\moc_predefs.h
 release/moc_predefs.h: E:/Setups/QT/6.11.0/mingw_64/mkspecs/features/data/dummy.cpp
-	g++ -fno-keep-inline-dllexport -O2 -Wall -Wextra -Wextra -dM -E -o release\moc_predefs.h E:\Setups\QT\6.11.0\mingw_64\mkspecs\features\data\dummy.cpp
+	g++ -fno-keep-inline-dllexport -O2 -std=gnu++1z -Wall -Wextra -Wextra -dM -E -o release\moc_predefs.h E:\Setups\QT\6.11.0\mingw_64\mkspecs\features\data\dummy.cpp
 
 compiler_moc_header_make_all: release/moc_MainWindow.cpp
 compiler_moc_header_clean:
@@ -347,7 +347,7 @@ release/moc_MainWindow.cpp: ../../MainWindow.h \
 		E:/Setups/QT/6.11.0/mingw_64/include/QtCore/QString \
 		release/moc_predefs.h \
 		E:/Setups/QT/6.11.0/mingw_64/bin/moc.exe
-	E:\Setups\QT\6.11.0\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/AMC/Downloads/RoomManagementSystem_Qt/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/release/moc_predefs.h -IE:/Setups/QT/6.11.0/mingw_64/mkspecs/win32-g++ -IC:/Users/AMC/Downloads/RoomManagementSystem_Qt -IE:/Setups/QT/6.11.0/mingw_64/include -IE:/Setups/QT/6.11.0/mingw_64/include/QtWidgets -IE:/Setups/QT/6.11.0/mingw_64/include/QtGui -IE:/Setups/QT/6.11.0/mingw_64/include/QtCore -I. -IE:/Setups/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++ -IE:/Setups/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32 -IE:/Setups/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward -IE:/Setups/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include -IE:/Setups/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed -IE:/Setups/QT/Tools/mingw1310_64/x86_64-w64-mingw32/include ..\..\MainWindow.h -o release\moc_MainWindow.cpp
+	E:\Setups\QT\6.11.0\mingw_64\bin\moc.exe $(DEFINES) --include "E:/OneDrive - Higher Education Commission/Working/Git Hub/Scabs-DSA/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/release/moc_predefs.h" -IE:/Setups/QT/6.11.0/mingw_64/mkspecs/win32-g++ -I"E:/OneDrive - Higher Education Commission/Working/Git Hub/Scabs-DSA" -IE:/Setups/QT/6.11.0/mingw_64/include -IE:/Setups/QT/6.11.0/mingw_64/include/QtWidgets -IE:/Setups/QT/6.11.0/mingw_64/include/QtGui -IE:/Setups/QT/6.11.0/mingw_64/include/QtCore -I. -IE:/Setups/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++ -IE:/Setups/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32 -IE:/Setups/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward -IE:/Setups/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include -IE:/Setups/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed -IE:/Setups/QT/Tools/mingw1310_64/x86_64-w64-mingw32/include ..\..\MainWindow.h -o release\moc_MainWindow.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -843,6 +843,7 @@ release/MainWindow.o: ../../MainWindow.cpp ../../MainWindow.h \
 		E:/Setups/QT/6.11.0/mingw_64/include/QtWidgets/qlayoutitem.h \
 		E:/Setups/QT/6.11.0/mingw_64/include/QtWidgets/qgridlayout.h \
 		E:/Setups/QT/6.11.0/mingw_64/include/QtWidgets/QHBoxLayout \
+		E:/Setups/QT/6.11.0/mingw_64/include/QtWidgets/QGridLayout \
 		E:/Setups/QT/6.11.0/mingw_64/include/QtWidgets/QDialog \
 		E:/Setups/QT/6.11.0/mingw_64/include/QtWidgets/qdialog.h \
 		E:/Setups/QT/6.11.0/mingw_64/include/QtWidgets/QFormLayout \
@@ -856,6 +857,7 @@ release/MainWindow.o: ../../MainWindow.cpp ../../MainWindow.h \
 		E:/Setups/QT/6.11.0/mingw_64/include/QtGui/qtextoption.h \
 		E:/Setups/QT/6.11.0/mingw_64/include/QtWidgets/QSpinBox \
 		E:/Setups/QT/6.11.0/mingw_64/include/QtWidgets/qspinbox.h \
+		E:/Setups/QT/6.11.0/mingw_64/include/QtWidgets/QDoubleSpinBox \
 		E:/Setups/QT/6.11.0/mingw_64/include/QtWidgets/QComboBox \
 		E:/Setups/QT/6.11.0/mingw_64/include/QtWidgets/qcombobox.h \
 		E:/Setups/QT/6.11.0/mingw_64/include/QtWidgets/QCheckBox \
@@ -870,7 +872,10 @@ release/MainWindow.o: ../../MainWindow.cpp ../../MainWindow.h \
 		E:/Setups/QT/6.11.0/mingw_64/include/QtCore/qdatetime.h \
 		E:/Setups/QT/6.11.0/mingw_64/include/QtCore/qcalendar.h \
 		E:/Setups/QT/6.11.0/mingw_64/include/QtWidgets/QGroupBox \
-		E:/Setups/QT/6.11.0/mingw_64/include/QtWidgets/qgroupbox.h
+		E:/Setups/QT/6.11.0/mingw_64/include/QtWidgets/qgroupbox.h \
+		E:/Setups/QT/6.11.0/mingw_64/include/QtWidgets/QScrollArea \
+		E:/Setups/QT/6.11.0/mingw_64/include/QtWidgets/qscrollarea.h \
+		E:/Setups/QT/6.11.0/mingw_64/include/QtGui/QFont
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\MainWindow.o ..\..\MainWindow.cpp
 
 release/RoomManager.o: ../../RoomManager.cpp ../../RoomManager.h \
